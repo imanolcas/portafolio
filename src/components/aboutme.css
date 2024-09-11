@@ -1,0 +1,30 @@
+.aboutme{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.aboutme-content{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.aboutme-title{
+    font-size: 50px;
+}
+
+.aboutme-description{
+    width: 50ch;
+}
+
+.aboutme-skills{
+    position: relative;
+}
+
+.aboutme-skills > ul{
+    gap: 40px;
+    display: flex;
+}

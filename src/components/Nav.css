@@ -1,0 +1,28 @@
+.nav{
+    min-width: 180px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    position: sticky;
+    top: 0; 
+    z-index: 1000; 
+    background-color: var(--primary-color);
+    box-shadow: 0 0.5px 35px 1.5px var(--accent-color);
+    
+}
+
+.nav-ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nav-li > a{
+    font-weight: bold;
+    transition: 1s all ease;
+    color:var(--font-color);
+}
+
+.nav-li :hover{
+    color: var(--accent-color);
+}
